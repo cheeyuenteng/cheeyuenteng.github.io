@@ -5,10 +5,10 @@ RethinkSec is a website that will share the basic to advanced knowledge in cyber
 ## What do I share here?
 
 Normally I will be sharing multiple writeups, including, but not limited to:
-- [Cybersecurity Fundamentals](https://cheeyuenteng.github.io/cybersecurity-fundamentals)
-- [Penetration Testing](https://cheeyuenteng.github.io/penetration-testing)
-- [Digital Forensic](https://cheeyuenteng.github.io/digital-forensic)
-- [Reverse Engineering](https://cheeyuenteng.github.io/reverse-engineering)
+- [Cybersecurity Fundamentals](cybersecurity-fundamentals/)
+- [Penetration Testing](penetration-testing/)
+- [Digital Forensic](digital-forensic/)
+- [Reverse Engineering](reverse-engineering/)
 
 However, due to my full-time job, this will not be always updated, will only be updating whenever I have free time.
 
