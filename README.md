@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# Welcome to RethinkSec Github Pages!
 
-You can use the [editor on GitHub](https://github.com/cheeyuenteng/cheeyuenteng.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+RethinkSec is a website that will share the basic to advanced knowledge in cybersecurity, mainly for the new joiners in cybersecurity, or those who want to refresh their mind in cybersecurity.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## What do I share here?
 
-### Markdown
+Normally I will be sharing multiple writeups, including, but not limited to:
+- [Cybersecurity Fundamentals](https://cheeyuenteng.github.io/cybersecurity-fundamentals)
+- [Penetration Testing](https://cheeyuenteng.github.io/penetration-testing)
+- [Digital Forensic](https://cheeyuenteng.github.io/digital-forensic)
+- [Reverse Engineering](https://cheeyuenteng.github.io/reverse-engineering)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+However, due to my full-time job, this will not be always updated, will only be updating whenever I have free time.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## About Me
 
-1. Numbered
-2. List
+I am a cybersecurity practitioner since 2017. My career life started as a software tester, web developer (PHP), and also cybersecurity consultant in Penetration Testing, Digital Forensic & Compromise Assessment. I am also the trainer for EC-Council, and HRDCorp Certified Trainer.
 
-**Bold** and _Italic_ and `Code` text
+## Certifications
 
-[Link](url) and ![Image](src)
-```
+- ISC(2)
+    - Certified Information System Security Professional (CISSP)
+- Offensive Security
+    - Offensive Security Certified Professional (OSCP)
+- CQI-IRCA
+    - ISO27001:2013 Lead Auditor
+- CREST
+    - CREST Practitioner Security Analyst (CPSA)
+    - CREST Registered Penetration Tester (CRT)
+- EC-Council
+    - Certified EC-Council Instructor (CEI)
+    - Computer Hacking Forensic Investigator (CHFI)
+    - Certified Ethical Hacker (CEH)
+    - EC-Council Certified Security Analyst (ECSA)
+    - Certified SOC Analyst (CSA)
+- ISACA
+    - CSX Fundamental (CSX-F)
+- CompTIA
+    - CompTIA Security+
+- HRDCorp
+    - HRDCorp Certified Trainer
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+## Personal Contribution
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cheeyuenteng/cheeyuenteng.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- OWASP Lifetime Member since 2018, contribute as Member
+- Cybersecurity Awareness Speaker since 2018
+- Industry Advisor for APU Forensic & Cybersecurity Research Centre - Student Section (FSec-SS) since 2018
 
-### Support or Contact
+## Contact Me
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Email: [Click Here](mailto:cheeyuen.teng@owasp.org)
+- LinkedIn: [Click Here](https://www.linkedin.com/in/cheeyuen-teng/)
