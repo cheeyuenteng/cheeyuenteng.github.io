@@ -1,3 +1,7 @@
+---
+permalink: /cybersecurity-fundamental/
+---
+
 # What info you are looking for? You are now at Cybersecurity Fundamental Section
 
 - [OverTheWire Bandit](https://cheeyuenteng.github.io/cybersecurity-fundamental/bandit)
