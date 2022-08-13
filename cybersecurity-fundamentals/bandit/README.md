@@ -29,7 +29,7 @@ First time you may see a message such as "The authenticity of host can’t be es
 | Port | 2220 |
 | Username | bandit0 |
 | Password | bandit0 |
-| URL | https://overthewire.org/wargames/bandit/bandit1.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit1.html> |
 
 The objective for Level 0 to Level 1 is we need to know the content of the file "readme" which is located in the home directory, and the file content will be the password for "bandit1". For us to read the file content of a file, we can run ```cat <filename>```. In this case, we will need to run ```cat readme```.
 
@@ -49,7 +49,7 @@ Key takeaway:
 | Port | 2220 |
 | Username | bandit1 |
 | Password | boJ9jbbUNNfktd78OOpsqOltutMc3MY1 |
-| URL | https://overthewire.org/wargames/bandit/bandit2.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit2.html> |
 
 The objective for Level 1 to Level 2 is we need to know the content of the file "-" which is located in the home directory, and the file content will be the password for "bandit2". "-" is one of the special character in Linux environment, where it is widely used by multiple environment. For example, "cd -" will bring you to the previous directory. In order for us to cat the file with the name "-", we can add a "./" before it, which means the current directory. "./-" means that the filename of "-" which is within the current directory. If you want to read the file that is from the parent directory, use "../" instead.
 
@@ -68,7 +68,7 @@ Key takeaway:
 | Port | 2220 |
 | Username | bandit2 |
 | Password | CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9 |
-| URL | https://overthewire.org/wargames/bandit/bandit3.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit3.html> |
 
 The objective for Level 2 to Level 3 is we need to know the content of the file "spaces in this filename" which is located in the home directory, and the file content will be the password for "bandit3". Space is one of the special characters where it will treat the space as a separator between commands & parameters. For example, "cat readme" means that "cat" the file with the filename "readme". So for us to read the actual file content for it, we have 2 ways to work on it.
 
@@ -89,7 +89,7 @@ Key takeaway:
 | Port | 2220 |
 | Username | bandit3 |
 | Password | UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK |
-| URL | https://overthewire.org/wargames/bandit/bandit4.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit4.html> |
 
 The objective for Level 3 to Level 4 is we need to know the content of a hidden file which is located in the "inhere" directory, and the file content will be the password for "bandit4". In Linux environment, in order for us to hide a file, we can simply put a dot in front of the file. So "readme" and ".readme" are different, where one of the is visible, and another one is not visible.
 
@@ -115,7 +115,7 @@ Key takeaway:
 | Port | 2220 |
 | Username | bandit4 |
 | Password | pIwrPrtPN36QITSp3EQaw936yaFoFgAB |
-| URL | https://overthewire.org/wargames/bandit/bandit5.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit5.html> |
 
 The objective for Level 4 to Level 5 is we need to know the content of a file which is located in the "inhere" directory, and only one of the file will only contain a specific human-readable word and it will be the password for "bandit4". If we are using "cat" to read the content, then our terminal will messed up with gibberish data.
 
@@ -144,7 +144,7 @@ Key takeaway:
 | Port | 2220 |
 | Username | bandit5 |
 | Password | koReBOKuIDDepwhWk7jZC0RTdopnAYKh |
-| URL | https://overthewire.org/wargames/bandit/bandit6.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit6.html> |
 
 The objective for Level 5 to Level 6 is to find a file somewhere under the inhere directory that meet the requirement below:
 - Human-readable
@@ -182,7 +182,7 @@ Key takeaway:
 | Port | 2220 |
 | Username | bandit6 |
 | Password | DXjZPULLxYr17uwoI01bNLQbtFemEgo7 |
-| URL | https://overthewire.org/wargames/bandit/bandit7.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit7.html> |
 
 The objective for Level 6 to Level 7 are similar, where we need to find a file from the entire file system that meet the requirement below:
 - Owned by user bandit7
@@ -221,7 +221,7 @@ Key takeaway:
 | Port | 2220 |
 | Username | bandit7 |
 | Password | HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs |
-| URL | https://overthewire.org/wargames/bandit/bandit8.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit8.html> |
 
 The next challenge is fairly simple, we need to find our password that is sit next to keyword millionth from a huge file named data.txt.
 
@@ -246,7 +246,7 @@ Key takeaway:
 | Port | 2220 |
 | Username | bandit8 |
 | Password | HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs |
-| URL | https://overthewire.org/wargames/bandit/bandit9.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit9.html> |
 
 The next challenge required us to find the password from a huge file that is occured once. We can use 2 utilities, called sort and uniq to help us accomplish the task. We can run the command below
 
@@ -282,7 +282,7 @@ Key takeaway:
 | Port | 2220 |
 | Username | bandit9 |
 | Password | UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR |
-| URL | https://overthewire.org/wargames/bandit/bandit10.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit10.html> |
 
 The challenge is similar to the previous, where our password is now near with character "=". But the files may contain characters that are not human-readable. So instead of "cat", we use "strings" instead.
 
@@ -303,7 +303,7 @@ Key takeaway:
 | Port | 2220 |
 | Username | bandit10 |
 | Password | truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk |
-| URL | https://overthewire.org/wargames/bandit/bandit11.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit11.html> |
 
 In this challenge, we need to base64 decode a string, which can be our password for next level. In linux, there is an utility called base64 which allow us to encode / decode base64 string.
 
@@ -326,7 +326,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit11 |
 | Password | IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR |
-| URL | https://overthewire.org/wargames/bandit/bandit12.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit12.html> |
 
 In this level, we need to decode a string, that has been rotated by 13 positions, means "A" is now switch to "N", and vice versa. This is a famous cipher called "Caesar Cipher", which it use the rotation to encode the actual string.
 
@@ -351,7 +351,7 @@ Key Takeaways:
 | Port | 2220 |
 | Username | bandit12 |
 | Password | 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu |
-| URL | https://overthewire.org/wargames/bandit/bandit13.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit13.html> |
 
 In this challenge, we need to decompress a file which is compressed multiple times with different utilities. In Linux, there are multiple compression tools, including tar, bzip, gzip, 7z, zip etc. Among these compressions method, the most common methods are tar & gzip.
 
@@ -403,7 +403,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit13 |
 | Password | 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL |
-| URL | https://overthewire.org/wargames/bandit/bandit14.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit14.html> |
 
 In this challenge, we will learn a new method of SSH. On all the previous level, we are always use password to authenticate ourselves. But SSH also provide another possibility for authentication, which is using public / private key method. This method will be useful when you are not comfortable to share your account password to others, but they need to remote to your environment to perform some stuff.
 
@@ -438,7 +438,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit14 |
 | Password | 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e |
-| URL | https://overthewire.org/wargames/bandit/bandit15.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit15.html> |
 
 In this challenge, we need to supply our own password to a specific port and we will get the next password. To connect to a port, we can use nc utility, which stands for netcat.
 
@@ -463,7 +463,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit15 |
 | Password | BfMYroe26WYalil77FoDi9qh59eK5xNr |
-| URL | https://overthewire.org/wargames/bandit/bandit16.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit16.html> |
 
 In this challenge, we need to supply our own password to a specific port and we will get the next password just like last level. However, we will need to initiate the connection with SSL / TLS connection! In the last level (Level 14 > Level 15), nc utility will only perform the non-encrypted connection. In order for us to do this, we can use the other utility called OpenSSL. OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library. Inside OpenSSL tookit, there is a specific function called s_client, which will allow us to initiate SSL / TLS encrypted connection.
 
@@ -502,7 +502,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit16 |
 | Password | cluFn7wTiGryunymYOu4RcffSxQluehd |
-| URL | https://overthewire.org/wargames/bandit/bandit17.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit17.html> |
 
 For this level, we will need to perform 3 tasks
 - Identify which ports are open from the range of 31000-32000
@@ -547,7 +547,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit17 |
 | Password | xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn |
-| URL | https://overthewire.org/wargames/bandit/bandit18.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit18.html> |
 
 In this level, we will need to identify the difference between 2 files, passwords.new & passwords.old. In Linux, there is a good utility called diff, which will allow us to identify the difference between these 2 files.
 
@@ -566,7 +566,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit18 |
 | Password | kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd |
-| URL | https://overthewire.org/wargames/bandit/bandit19.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit19.html> |
 
 For this level, when we attempt to login as level 18, we get log out immediately after our successful login.
 
@@ -593,7 +593,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit19 |
 | Password | IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x |
-| URL | https://overthewire.org/wargames/bandit/bandit20.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit20.html> |
 
 For this level, we will learn about setuid binary. Setuid (SUID) binary will basically allow you to run the program as the owner of the program. One of the typical SUID binary will be sudo (that’s why we need sudo when we need to run something as root).
 
@@ -616,7 +616,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit20 |
 | Password | GbKksEFF4yrVs6il55v6gwY5aVje5f0j |
-| URL | https://overthewire.org/wargames/bandit/bandit21.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit21.html> |
 
 For this level, we need to run a specific program that is set with SUID also. We will create a netcat session with the password, and use this program to retrieve it, if it got the correct password, then it will give us the next level password
 
@@ -639,7 +639,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit21 |
 | Password | gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr |
-| URL | https://overthewire.org/wargames/bandit/bandit22.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit22.html> |
 
 In this level, we will learn about crontab. Crontab is basically a job that will run the action on a specific date and time.
 
@@ -664,7 +664,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit22 |
 | Password | Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI |
-| URL | https://overthewire.org/wargames/bandit/bandit23.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit23.html> |
 
 In this level, we are going to inspect on the cron job again.
 
@@ -701,7 +701,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit23 |
 | Password | jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n |
-| URL | https://overthewire.org/wargames/bandit/bandit24.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit24.html> |
 
 Another cron job level, let’s check the code directly.
 
@@ -732,7 +732,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit24 |
 | Password | UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ |
-| URL | https://overthewire.org/wargames/bandit/bandit25.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit25.html> |
 
 In this challenge, we have to perform some attack, called brute force attack, to get our next level password. To accomplish this, we need to use some script. I will use python as example, but eventually all languages should works.
 
@@ -753,7 +753,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit25 |
 | Password | uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG |
-| URL | https://overthewire.org/wargames/bandit/bandit26.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit26.html> |
 
 In this level, the system has provided us the ssh private key to bandit26, but the shell is different than what we were using all this while. We can inspect what is the default shell that the particular user is using from /etc/passwd. /etc/passwd will contain some user information, including the username, the home directory, the default shell etc. From the /etc/passwd, we can see the default shell is not /bin/bash, but /usr/bin/showtext.
 
@@ -796,7 +796,7 @@ From here, we can get the bandit26 password, which is ```5czgV9L3Xx8JPOyRbXh6lQb
 But take note that since this level is special, where we will not getting a proper shell, we will need to use this for our next level.
 
 Key takeaways:
-- more / less (another similar utility) will allow the attacker to perform privilege escalation on it. For more information, can refer to https://gtfobins.github.io/gtfobins/more/
+- more / less (another similar utility) will allow the attacker to perform privilege escalation on it. For more information, can refer to <https://gtfobins.github.io/gtfobins/more/>
 
 ## Level 26 > Level 27
 
@@ -806,7 +806,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit26 |
 | Password | 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z |
-| URL | https://overthewire.org/wargames/bandit/bandit27.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit27.html> |
 
 In this level, we has a SUID program called "bandit27-do", so we can use this, and get the password for bandit27 like previous level.
 
@@ -822,7 +822,7 @@ Easy! The password is ```3ba3118a22e93127a4ed485be72ef5ea```.
 | Port | 2220 |
 | Username | bandit27 |
 | Password | 3ba3118a22e93127a4ed485be72ef5ea |
-| URL | https://overthewire.org/wargames/bandit/bandit28.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit28.html> |
 
 Alright, here it comes. The git related challenges! For this challenge, we will need to clone a repository (repo) from another user called "bandit27-git", we can run the command git clone to clone the latest repository into our selected directory.
 
@@ -843,7 +843,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit28 |
 | Password | 0ef186ac70e04ea33b4c1853d2526fa2 |
-| URL | https://overthewire.org/wargames/bandit/bandit29.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit29.html> |
 
 For this level, we are gonna do the same as well, clone the repository from the URL, and we get the content. But the README.md is weird.
 
@@ -871,7 +871,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit29 |
 | Password | bbc96594b4e001778eee9975372716b2 |
-| URL | https://overthewire.org/wargames/bandit/bandit30.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit30.html> |
 
 In this challenge, we will need to clone the new repository, and we can see that the password is not in the production, but it will means it is at somewhere else.
 
@@ -898,7 +898,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit30 |
 | Password | 5b90576bedb2cc04c86a9e924ce42faf |
-| URL | https://overthewire.org/wargames/bandit/bandit31.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit31.html> |
 
 Doing the same thing like previous level again.
 
@@ -925,7 +925,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit31 |
 | Password | 47e603bb428404d265f59c42920d81e5 |
-| URL | https://overthewire.org/wargames/bandit/bandit32.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit32.html> |
 
 Doing the same steps again
 
@@ -971,7 +971,7 @@ Key takeaways:
 | Port | 2220 |
 | Username | bandit32 |
 | Password | 56a9bf19c63d650ce78e6ec0354ee45e |
-| URL | https://overthewire.org/wargames/bandit/bandit33.html |
+| URL | <https://overthewire.org/wargames/bandit/bandit33.html> |
 
 So here is our final challenges! In this challenge, we will need to escape this UPPERCASE shell, where it will take all of our input and make it uppercase. As mention in the previous level, Linux is case sensitive, cat & CAT are 2 different thing.
 
@@ -990,6 +990,6 @@ At the point of writing this article, this is the last level, if you are trying 
 Key takeaways:
 - There are numerous of special parameter in bash. For more information, you can always google for more.
 
-Before we end this, just want to share a special experience that I saw from one of my favourite Cyber Security Youtube Content Creator, LiveOverflow, that is about bash injection, without most of the characters! [Check it out here](https://www.youtube.com/watch?v=6D1LnMj0Yt0&list=PLhixgUqwRTjywPzsTYz28I-qezFOSaUYz&index=2)
+Before we end this, just want to share a special experience that I saw from one of my favourite Cyber Security Youtube Content Creator, LiveOverflow, that is about bash injection, without most of the characters! Check it out here: <https://www.youtube.com/watch?v=6D1LnMj0Yt0&list=PLhixgUqwRTjywPzsTYz28I-qezFOSaUYz&index=2>
 
 That is all for the Bandit adventure, if you have any comment or enquiry, feel free to drop me a message at my LinkedIn!
