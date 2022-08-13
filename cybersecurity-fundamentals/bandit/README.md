@@ -990,6 +990,6 @@ At the point of writing this article, this is the last level, if you are trying 
 Key takeaways:
 - There are numerous of special parameter in bash. For more information, you can always google for more.
 
-Before we end this, just want to share a special experience that I saw from one of my favourite Cyber Security Youtube Content Creator, LiveOverflow, that is about bash injection, without most of the characters! Check it out here: https://www.youtube.com/watch?v=6D1LnMj0Yt0&list=PLhixgUqwRTjywPzsTYz28I-qezFOSaUYz&index=2
+Before we end this, just want to share a special experience that I saw from one of my favourite Cyber Security Youtube Content Creator, LiveOverflow, that is about bash injection, without most of the characters! [Check it out here](https://www.youtube.com/watch?v=6D1LnMj0Yt0&list=PLhixgUqwRTjywPzsTYz28I-qezFOSaUYz&index=2)
 
 That is all for the Bandit adventure, if you have any comment or enquiry, feel free to drop me a message at my LinkedIn!
