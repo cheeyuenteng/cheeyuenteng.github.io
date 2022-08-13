@@ -39,6 +39,8 @@ I am a cybersecurity practitioner since 2017. My career life started as a softwa
     - CSX Fundamental (CSX-F)
 - CompTIA
     - CompTIA Security+
+- GIAC
+    - GIAC Security Essentials (GSEC)
 - HRDCorp
     - HRDCorp Certified Trainer
 
