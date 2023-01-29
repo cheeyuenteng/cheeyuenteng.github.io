@@ -8,7 +8,7 @@ Normally I will be sharing multiple writeups, including, but not limited to:
 - [Cybersecurity Fundamentals](cybersecurity-fundamentals/)
 - [Penetration Testing](penetration-testing/)
 - [Digital Forensic](digital-forensic/)
-- [Reverse Engineering](reverse-engineering/)
+- [Malware Analysis](malware-analysis/)
 
 However, due to my full-time job, this will not be always updated, will only be updating whenever I have free time.
 
