@@ -1,4 +1,4 @@
-# Welcome to RethinkSec Github Pages!
+# Welcome to RethinkSec!
 
 RethinkSec is a website that will share the basic to advanced knowledge in cybersecurity, mainly for the new joiners in cybersecurity, or those who want to refresh their mind in cybersecurity.
 
@@ -11,8 +11,6 @@ Normally I will be sharing multiple writeups, including, but not limited to:
 - [Reverse Engineering](reverse-engineering/)
 
 However, due to my full-time job, this will not be always updated, will only be updating whenever I have free time.
-
-
 
 ## About Me
 
