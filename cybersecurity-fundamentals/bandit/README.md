@@ -1,3 +1,4 @@
+# OverTheWire Bandit
 ## Introduction
 
 Hi everyone, welcome to the first post of RethinkSec.
