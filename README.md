@@ -18,7 +18,7 @@ I am a cybersecurity practitioner since 2017. My career life started as a softwa
 
 ## Certifications
 
-- ISC(2)
+- (ISC)<sup>2</sup>
     - Certified Information System Security Professional (CISSP)
 - Offensive Security
     - Offensive Security Certified Professional (OSCP)
@@ -53,4 +53,4 @@ I am a cybersecurity practitioner since 2017. My career life started as a softwa
 ## Contact Me
 
 - Email: [Click Here](mailto:cheeyuen.teng@owasp.org)
-- LinkedIn: [Click Here](https://www.linkedin.com/in/cheeyuen-teng/)
+- LinkedIn: [Click Here](https://www.linkedin.com/in/cheeyuen-teng/){:target="_blank"}
