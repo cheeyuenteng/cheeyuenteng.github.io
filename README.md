@@ -45,6 +45,7 @@ I am a cybersecurity practitioner since 2017. My career life started as a softwa
 
 ## Personal Contribution
 
+- (ISC)<sup>2</sup> Malaysia Chapter Director (Academia Relation) (2023/2024)
 - OWASP Lifetime Member since 2018, contribute as Member
 - Cybersecurity Awareness Speaker since 2018
 - Industry Advisor for APU Forensic & Cybersecurity Research Centre - Student Section (FSec-SS) since 2018
