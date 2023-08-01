@@ -1,3 +1,14 @@
+<!-- TOC -->
+
+- [Welcome to RethinkSec!](#welcome-to-rethinksec)
+	- [What do I share here?](#what-do-i-share-here)
+	- [About Me](#about-me)
+	- [Certifications](#certifications)
+	- [Personal Contribution](#personal-contribution)
+	- [Contact Me](#contact-me)
+
+<!-- /TOC -->
+
 # Welcome to RethinkSec!
 
 RethinkSec is a website that will share the basic to advanced knowledge in cybersecurity, mainly for the new joiners in cybersecurity, or those who want to refresh their mind in cybersecurity.
